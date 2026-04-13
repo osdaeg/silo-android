@@ -5,7 +5,6 @@ Cliente Android para [Silo](https://github.com/osdaeg/silo), el gestor de enlace
 ![Android](https://img.shields.io/badge/Android-API%2026%2B-green)
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9.23-blue)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-2024.06-brightgreen)
-![Licencia](https://img.shields.io/badge/licencia-MIT-lightgrey)
 
 ---
 
@@ -142,4 +141,4 @@ app/src/main/java/com/daniel/silo/
 
 ## Licencia
 
-MIT
+GPL v3
