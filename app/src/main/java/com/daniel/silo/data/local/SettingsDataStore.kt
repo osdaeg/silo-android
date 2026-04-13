@@ -15,7 +15,7 @@ import javax.inject.Singleton
 val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "silo_prefs")
 
 data class SiloSettings(
-    val serverUrl: String = "http://192.168.1.10:7123",
+    val serverUrl: String = "http://192.168.88.100:7123",
     val apiToken: String = ""
 )
 
@@ -28,7 +28,7 @@ class SettingsDataStore @Inject constructor(
 
     val settings: Flow<SiloSettings> = context.dataStore.data.map { prefs ->
         SiloSettings(
-            serverUrl = prefs[SERVER_URL] ?: "http://192.168.1.10:7123",
+            serverUrl = prefs[SERVER_URL] ?: "http://192.168.88.100:7123",
             apiToken  = prefs[API_TOKEN]  ?: ""
         )
     }
