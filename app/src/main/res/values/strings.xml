@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Silo</string>
+    <string name="links">Enlaces</string>
+    <string name="collections">Colecciones</string>
+    <string name="settings">Ajustes</string>
+    <string name="add_link">Agregar enlace</string>
+    <string name="delete">Borrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="move_to">Mover a colección</string>
+    <string name="no_links">Sin enlaces</string>
+    <string name="no_collections">Sin colecciones</string>
+    <string name="server_url">URL del servidor</string>
+    <string name="api_token">Token de acceso</string>
+    <string name="sync_now">Sincronizar ahora</string>
+    <string name="syncing">Sincronizando…</string>
+    <string name="saved_offline">Guardado localmente. Se sincronizará cuando haya conexión.</string>
+    <string name="link_saved">Enlace guardado</string>
+    <string name="link_deleted">Enlace borrado</string>
+    <string name="link_moved">Enlace movido</string>
+    <string name="error_generic">Ocurrió un error</string>
+    <string name="all_collections">Todos</string>
+    <string name="url_hint">https://…</string>
+    <string name="title_hint">Título (opcional)</string>
+    <string name="description_hint">Descripción (opcional)</string>
+    <string name="fetching_title">Obteniendo título…</string>
+    <string name="collection_hint">Colección (opcional)</string>
+    <string name="confirm_delete_link">¿Borrar este enlace?</string>
+    <string name="confirm_delete_collection">¿Borrar esta colección?</string>
+    <string name="new_collection">Nueva colección</string>
+    <string name="collection_name_hint">Nombre de la colección</string>
+    <string name="share_title">Guardar en Silo</string>
+    <string name="pending_sync">%d pendiente(s) de sincronizar</string>
+</resources>
