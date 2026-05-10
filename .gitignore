@@ -1,0 +1,25 @@
+.env
+docker-compose.yml
+*.log
+logs/
+taggerr_especificaciones.txt
+# Build
+build/
+app/build/
+.gradle/
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+
+# Keystore (¡nunca subir!)
+*.jks
+*.keystore
+
+# Sistema
+.DS_Store
+Thumbs.db
+README.md.github
+
+README.md.codeberg
