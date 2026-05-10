@@ -1,6 +1,6 @@
 # Silo Android
 
-Cliente Android para [Silo](https://github.com/osdaeg/silo), el gestor de enlaces autoalojado. Funciona en modo **offline-first**: guardás enlaces aunque no tenés conexión y se sincronizan automáticamente cuando el servidor vuelve a estar disponible.
+Cliente Android para [Silo](https://codeberg.org/osdaeg/silo), el gestor de enlaces autoalojado. Funciona en modo **offline-first**: guardás enlaces aunque no tenés conexión y se sincronizan automáticamente cuando el servidor vuelve a estar disponible.
 
 ![Android](https://img.shields.io/badge/Android-API%2026%2B-green)
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9.23-blue)
@@ -31,7 +31,7 @@ Cliente Android para [Silo](https://github.com/osdaeg/silo), el gestor de enlace
 ## Requisitos
 
 - Android API 26 o superior (Android 8.0+)
-- Servidor [Silo](https://github.com/osdaeg/silo) corriendo en tu red local
+- Servidor [Silo](https://codeberg.org/osdaeg/silo) corriendo en tu red local
 
 ---
 
@@ -41,7 +41,7 @@ Cliente Android para [Silo](https://github.com/osdaeg/silo), el gestor de enlace
 
 1. Cloná el repositorio:
 ```bash
-git clone https://github.com/osdaeg/silo-android.git
+git clone https://codeberg.org/osdaeg/silo-android.git
 cd silo-android
 ```
 
@@ -132,11 +132,11 @@ app/src/main/java/com/daniel/silo/
 
 | Cliente | Descripción |
 |---------|-------------|
-| [silo](https://github.com/osdaeg/silo) | Servidor FastAPI + dashboard web |
-| [silo-cli](https://github.com/osdaeg/silo-cli) | Cliente de línea de comandos |
-| [silo-tui](https://github.com/osdaeg/silo-tui) | Interfaz de terminal (Python Textual) |
-| [silo-plasmoid](https://github.com/osdaeg/silo-plasmoid) | Widget para KDE Plasma 6 |
-| [silo-firefox](https://github.com/osdaeg/silo-firefox-extension) | Extensión para Firefox |
+| [silo](https://codeberg.org/osdaeg/silo) | Servidor FastAPI + dashboard web |
+| [silo-cli](https://codeberg.org/osdaeg/silo-cli) | Cliente de línea de comandos |
+| [silo-tui](https://codeberg.org/osdaeg/silo-tui) | Interfaz de terminal (Python Textual) |
+| [silo-plasmoid](https://codeberg.org/osdaeg/silo-plasmoid) | Widget para KDE Plasma 6 |
+| [silo-firefox](https://codeberg.org/osdaeg/silo-firefox-extension) | Extensión para Firefox |
 | **silo-android** | **App Android** ← estás aquí |
 
 ---
